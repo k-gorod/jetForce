@@ -4,12 +4,16 @@ export const appStateSlice = createSlice({
   name: 'appState',
   initialState: {
     isModalVisible: false,
+    modalContentId: 0,
     isErrorOccurred: {
       state: false,
       message: '',
     },
   },
   reducers: {
+    setModalContent: (state, action) => {
+      state.modalContentId = action.payload;
+    },
     setModalState: (state, action) => {
       state.isModalVisible = action.payload;
     },
@@ -22,6 +26,6 @@ export const appStateSlice = createSlice({
   },
 });
 
-export const { setModalState, setError } = appStateSlice.actions;
+export const { setModalState, setError, setModalContent } = appStateSlice.actions;
 
 export default appStateSlice.reducer;

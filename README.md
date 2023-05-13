@@ -1,15 +1,15 @@
-Here is template of react/typescript App.
+Swapi
 
 ### Start
 
 1. Clone this repository
 
 ```sh
-$ cd template
+$ cd Swapi
 $ yarn
 $ yarn start
 ```
-> Project staring on port: 3333. You can set port using APP_PORT in .env root file.
+> Project staring on port: 3333. You can set port using APP_PORT env variable.
 
 ### Build
 
@@ -24,5 +24,6 @@ $ yarn build
 3. Babel
 4. Webpack
 5. Scss
+6. Material
 
 ---

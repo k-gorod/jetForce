@@ -2,3 +2,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
+#root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100dvh;
+  width: 100dvw;
+  background: linear-gradient(90deg, rgba(255,255,255,.1) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,.1) 100%), center / cover no-repeat url('https://wallpaperaccess.com/full/1347954.jpg');
+}

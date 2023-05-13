@@ -49,6 +49,10 @@
                 ]
             }
         ],
+        "react/no-array-index-key":"off",
+        "react/react-in-jsx-scope": "off",
+        "@typescript-eslint/no-empty-interface": "off",
+        "import/no-extraneous-dependencies":"off",
         "no-param-reassign": "off",
         "import/no-cycle": "off",
         "react/jsx-filename-extension": "off",
